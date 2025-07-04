@@ -12,7 +12,7 @@ const { getAttendanceReport, cleanup } = require("./attendance");
 // Configuration with validation
 const config = {
   BOT_TOKEN:
-    process.env.BOT_TOKEN || "7771541649:AAG0AUPY5308Nku5CZ9oiYMy_GWOmj-xuwc",
+    process.env.BOT_TOKEN || "7709646266:AAGZU0JKnX_8sk068Hk2dHYLJe8-dPfrLQw",
   REDIS_URL: process.env.REDIS_URL || "redis://localhost:6379",
   PORT: parseInt(process.env.PORT) || 5000,
   NODE_ENV: process.env.NODE_ENV || "development",
